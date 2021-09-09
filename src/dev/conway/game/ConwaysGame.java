@@ -101,9 +101,7 @@ public class ConwaysGame {
      * @return pretty print of the current alive cells as intended in instructions
      */
     public String outputString() {
-        // maps the alive cells to a list of '[x, y]' strings
-        String[] array = aliveCells.stream().map(Cell::toString).toArray(String[]::new);
-        return String.format("%d: [%s]", state, String.join(", ", array));
+        return String.format("%d: %s", state, aliveCells.toString());
     }
 
     /**
