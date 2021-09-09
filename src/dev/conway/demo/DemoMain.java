@@ -1,9 +1,12 @@
-package dev.conway;
+package dev.conway.demo;
+
+import dev.conway.game.Cell;
+import dev.conway.game.ConwaysGame;
 
 import java.util.Arrays;
 import java.util.List;
 
-public class Main {
+public class DemoMain {
 
     public static void main(String[] args) {
         // list of input

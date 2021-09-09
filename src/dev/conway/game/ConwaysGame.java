@@ -1,9 +1,11 @@
-package dev.conway;
+package dev.conway.game;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * Main class for the implementation - conways game of life
+ *
  * @author Adrian Kong
  * @project conways-game
  */

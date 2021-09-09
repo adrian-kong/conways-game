@@ -1,4 +1,7 @@
-package dev.conway;
+package dev.conway.game;
+
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * Cell record used to determine coordinate of each alive cell;
