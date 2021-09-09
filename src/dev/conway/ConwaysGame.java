@@ -86,7 +86,7 @@ public class ConwaysGame {
     private void updateGrid(List<Cell> aliveCells) {
         // need to remove the previous alive cells / reset the grid
         if (this.aliveCells != aliveCells) {
-            aliveCells.forEach(cell -> grid[cell.getX()][cell.getY()] = false);
+            this.aliveCells.forEach(cell -> grid[cell.getX()][cell.getY()] = false);
             this.aliveCells = aliveCells;
         }
         // update all the alive cells to the grid
